@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.timeline {
+  max-width: 700px;
+  width: 100%;
+  margin: 60px auto;
+  padding: 40px;
+  border: 5px solid #222;
+  border-radius: 20px;
+  text-align: center;
+  height: 650px;
+}
+
+.timeline h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+}
+
+.changelog-list {
+  position: relative;
+  padding-left: 40px;
+  border-left: 4px solid #111;
+  text-align: left;
+}
+
+.entry {
+  position: relative;
+  margin-bottom: 42px;
+}
+
+.entry .dot {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  width: 12px;
+  height: 12px;
+  background: #111;
+  border-radius: 50%;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 400px;
+  top: 180px;
+  right: 658.5px;
+  position: absolute;
+}
+
+.date {
+  margin-right: 400px;
+}
+
+.change {
+  margin-left: 200px;
+  margin-top: -20px;
+}
+
+
+
+.button:hover {
+  background: #333;
+}
+
+/* Fix when you zoom in things go weird and when you use inspect things go wrong */
+/* also find a way to make the line in the middle be better */
