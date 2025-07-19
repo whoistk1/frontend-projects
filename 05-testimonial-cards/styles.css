@@ -1,0 +1,70 @@
+/* Testimonial Card CSS Boilerplate */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fbda;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.tcard {
+    border: solid 4px black;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 500px;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    border: solid 2px black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+.not-middle {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.middle {
+    width: 75px;
+    height: 75px;
+    margin-top: -12.5px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    margin-bottom: 12.5px;
+
+}
+
