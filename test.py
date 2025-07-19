@@ -1,22 +1,27 @@
-def isAnagram(s, t):
+def twoSum(nums, target):
     """
-    :type s: str
-    :type t: str
-    :rtype: bool
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
     """
 
-    ssorted = []
-    tsorted = []
+    hashmap = {}
+    index = 0
 
-    for i in s:
-        ssorted.append(i)
-    for i in t:
-        tsorted.append(i)
-    ssorted.sort()
-    tsorted.sort()
+    for i in nums:
+        value = target - i
+
+        if value in hashmap:
+           return hashmap[value], index
+        else:
+            hashmap[i] = index
+            index += 1
+
+            print ("hashmap: ", hashmap)
+
     
-    print(ssorted)
-    print(tsorted)
 
 
-isAnagram("anagram", "nagaram")
+nums = [2, 7, 11, 15]
+target = 9
+print(twoSum(nums, target))
