@@ -1,0 +1,34 @@
+div.form-container {
+  border: 2px solid red;
+}
+
+div.form-group {
+  border: 2px solid green;
+}
+
+div.passowrd-group {
+  border: 2px solid blue;
+}
+
+div.profile-completeness {
+  border: 2px solid orange;
+}
+
+div.progress-container {
+  border: 2px solid purple;
+}
+
+div.list-container {
+  border: 2px solid teal;
+}
+
+button {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
