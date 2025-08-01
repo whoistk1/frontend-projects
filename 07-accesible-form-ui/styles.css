@@ -1,46 +1,63 @@
 body {
   display: flex;
-  width: 500px;
+  width: 275px;
+  height: 325px;
   margin: auto;
   margin-top: 20px;
   border-radius: 10px;
-  border: black 1px solid;
+  border: black 2px solid;
+  font: 1em sans-serif ;
+  font-size: small;
 }
 
 
 div.form-container {
-  border: 2px solid red;
   display: flex;
-  width: 400px;
+  width:90%;
   justify-content: center;
 }
 
 div.form-group {
-  border: 2px solid green;
-  margin-top: 5x;
+  margin-top: 15px;
   margin-bottom: 5px;
-
+  width: 100%;
   
 }
 
 div.passowrd-group {
-  border: 2px solid blue;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
+  position: relative;
+  width: 100%;
 }
 
-button.show-password-btn {
-    border: 2px solid black;
-    width: 20px;
-    height: 20px;
+.password-group input {
+  width: 100%;
+  padding-right: 40px; /* Space for the button */
+  box-sizing: border-box;
 }
+
+.show-password-btn {
+  position: absolute;
+  top: 65%;
+  right: -10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
 
 button.submit-btn {
     border: 2px solid black;
-    width: 100px;
+    background-color: black;
+    border-radius: 10px;
+    width: 90%;
     height: 30px;
     margin-top: 10px;
     margin-left: 10px;
+    color: white;
 }
 
 img {
@@ -50,6 +67,12 @@ img {
 input {
   margin-top: 5px;
   margin-bottom: 5px;
+  border: 1.7px solid black;
+  border-radius: 5px;
+  padding: 2.5px;
+  font: 1em sans-serif ;
+  font-size: small;
+  width: 100%;
 
 }
 
@@ -58,19 +81,3 @@ label {
     margin-top: 2px;
     margin-bottom: 2px;
 }
-
-div.profile-completeness {
-  border: 2px solid orange;
-  display: flex;
-  width: 400px;
-}
-
-div.progress-container {
-  border: 2px solid purple;
-}
-
-div.list-container {
-  border: 2px solid teal;
-
-}
-
